@@ -1,0 +1,6 @@
+/workspaces/Technical/springboot-technical/src/main/java/com/technical/projects/TechnicalProjectsApplication.java
+/workspaces/Technical/springboot-technical/src/main/java/com/technical/projects/controller/ProjectApiController.java
+/workspaces/Technical/springboot-technical/src/main/java/com/technical/projects/controller/ProjectController.java
+/workspaces/Technical/springboot-technical/src/main/java/com/technical/projects/controller/ProjectFilesController.java
+/workspaces/Technical/springboot-technical/src/main/java/com/technical/projects/model/ProjectItem.java
+/workspaces/Technical/springboot-technical/src/main/java/com/technical/projects/service/ProjectCatalogService.java

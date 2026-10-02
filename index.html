@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Project Portfolio</title>
+    <meta
+      name="description"
+      content="Browse technical documentation projects, system design notes, and implementation guides."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand-wrap">
+          <span class="brand-mark">T</span>
+          <div>
+            <p class="eyebrow">Technical archive</p>
+            <h1>Project Portfolio</h1>
+          </div>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="README.md">Repository</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow accent">Documentation turned into projects</p>
+            <h2>Browse technical notes as complete, actionable project guides.</h2>
+            <p>
+              This repository brings together Linux, networking, monitoring, buildroot,
+              telecom, and application design notes into a searchable project catalog.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">Browse projects</a>
+              <a class="button secondary" href="README.md">Read overview</a>
+            </div>
+          </div>
+          <div class="hero-panel" id="about">
+            <ul>
+              <li><strong>Topics:</strong> Linux, Web, Network, Security, Embedded</li>
+              <li><strong>Format:</strong> HTML5, CSS, JavaScript + Markdown docs</li>
+              <li><strong>Goal:</strong> Convert notes into reusable project artifacts</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls" id="projects">
+        <div class="container control-wrap">
+          <div class="search-box">
+            <label for="project-search">Search projects</label>
+            <input id="project-search" type="search" placeholder="Search by title, tag, or topic" />
+          </div>
+          <div class="filter-box">
+            <label for="category-filter">Category</label>
+            <select id="category-filter">
+              <option value="all">All categories</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+          <div class="stats" aria-live="polite">
+            <div class="stat-item">
+              <span id="project-count">0</span>
+              <small>Projects</small>
+            </div>
+            <div class="stat-item">
+              <span id="category-count">0</span>
+              <small>Categories</small>
+            </div>
+            <div class="stat-item">
+              <span>MD</span>
+              <small>Documentation</small>
+            </div>
+          </div>
+
+          <div id="project-grid" class="project-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Technical Documentation Repository</p>
+        <a href="docs/project-template.md">Project completion template</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

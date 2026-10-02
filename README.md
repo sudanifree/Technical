@@ -39,6 +39,8 @@ The repository contains many Markdown files covering a wide range of subjects, i
 - Project guidance: See [docs/README.md](docs/README.md)
 - Project structure and lifecycle guidance: See [docs/project-structure.md](docs/project-structure.md)
 - Project template for full documentation: See [docs/project-template.md](docs/project-template.md)
+- Interactive web browser: Open [index.html](index.html) or serve the repository with a local web server to browse projects in HTML5/CSS/JavaScript
+- Spring Boot implementation: See the [project guide](springboot-technical/README.md) and runnable application in [springboot-technical](springboot-technical), which automatically catalogs repository Markdown files
 
 ## How to use the repository as a project library
 

@@ -1,0 +1,6 @@
+com/technical/projects/controller/ProjectFilesController.class
+com/technical/projects/service/ProjectCatalogService.class
+com/technical/projects/controller/ProjectController.class
+com/technical/projects/model/ProjectItem.class
+com/technical/projects/controller/ProjectApiController.class
+com/technical/projects/TechnicalProjectsApplication.class
